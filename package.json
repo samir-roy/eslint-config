@@ -1,0 +1,70 @@
+{
+  "name": "@samiroy/eslint-config",
+  "version": "1.0.0",
+  "description": "Samiroy's ESLint config for TypeScript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samir-roy/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "typescript",
+    "samiroy",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "author": "Samir Roy",
+  "contributors": [
+    {
+      "name": "Samir Roy",
+      "url": "https://samirroy.com"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/samir-roy/eslint-config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^15.0.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.15.0",
+    "@babel/eslint-plugin": "^7.12.1",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-typescript": "^7.16.7",
+    "@babel/runtime": "^7.18.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "react": ">= 0.13.0",
+    "typescript": "^4.6.4"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  },
+  "engines": {
+    "node": "^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/samir-roy/eslint-config/issues"
+  }
+}
