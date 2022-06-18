@@ -25,6 +25,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-useless-path-segments': 'error',
     'no-use-before-define': 'off',
+    'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
     'max-len': ['error', {
       code: 120,
       ignoreRegExpLiterals: true,
