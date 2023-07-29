@@ -1,6 +1,6 @@
 {
   "name": "@samiroy/eslint-config",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Samiroy's ESLint config for TypeScript",
   "main": "index.js",
   "repository": {
