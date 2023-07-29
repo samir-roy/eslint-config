@@ -38,7 +38,7 @@ module.exports = {
         code: 120,
         ignoreRegExpLiterals: true,
         ignoreTrailingComments: true,
-        ignorePattern: '(^\\s*?const .* = ["`\'].*["`\'];$)|(^import.*;$)',
+        ignorePattern: '(^\\s*?const .* = ["`\'].*["`\'];$)|(^import.*;$)|(^\\s*?d=["`\'].*["`\']$',
       },
     ],
     'prettier/prettier': [
