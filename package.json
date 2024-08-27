@@ -1,6 +1,6 @@
 {
   "name": "@samiroy/eslint-config",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Samiroy's ESLint config for TypeScript",
   "main": "index.js",
   "repository": {
@@ -35,27 +35,27 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.24.1",
-    "@babel/eslint-plugin": "^7.23.5",
-    "@babel/preset-env": "^7.24.3",
-    "@babel/preset-typescript": "^7.24.1",
-    "@babel/runtime": "^7.24.1",
-    "@typescript-eslint/eslint-plugin": "^7.3.1",
-    "@typescript-eslint/parser": "^7.3.1",
+    "@babel/eslint-parser": "^7.25.1",
+    "@babel/eslint-plugin": "^7.25.1",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-typescript": "^7.24.7",
+    "@babel/runtime": "^7.25.4",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-prettier": "^5.1.3",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^3.2.5",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "prettier": "^3.3.3",
     "react": ">= 0.13.0",
-    "typescript": "^5.4.3"
+    "typescript": "^5.5.4"
   },
   "engines": {
     "node": "^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0"

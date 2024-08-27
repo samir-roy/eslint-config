@@ -56,6 +56,7 @@ module.exports = {
       },
     ],
     'react/no-unused-prop-types': 'error',
+    'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
     'react/jsx-filename-extension': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/forbid-prop-types': 'error',
