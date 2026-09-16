@@ -1,8 +1,18 @@
 {
   "name": "@samiroy/eslint-config",
-  "version": "2.0.8",
-  "description": "Samiroy's ESLint config for TypeScript",
+  "version": "3.0.0",
+  "description": "Samiroy's ESLint config for TypeScript and React",
+  "type": "commonjs",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./rules": "./rules.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "rules.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samir-roy/eslint-config.git"
@@ -10,14 +20,13 @@
   "keywords": [
     "eslint",
     "eslintconfig",
+    "eslint-config",
+    "flat-config",
     "config",
     "typescript",
+    "react",
     "samiroy",
-    "styleguide",
-    "es2015",
-    "es2016",
-    "es2017",
-    "es2018"
+    "styleguide"
   ],
   "author": "Samir Roy",
   "contributors": [
@@ -32,33 +41,41 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "node ./test/smoke.js"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.25.1",
-    "@babel/eslint-plugin": "^7.25.1",
-    "@babel/preset-env": "^7.25.4",
-    "@babel/preset-typescript": "^7.24.7",
-    "@babel/runtime": "^7.25.4",
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
-    "@typescript-eslint/parser": "^7.18.0",
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^9.1.0",
+    "@eslint/js": "^9.39.5",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-import-resolver-typescript": "^3.6.3",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.9.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react": "^7.35.0",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "prettier": "^3.3.3",
-    "react": ">= 0.13.0",
-    "typescript": "^5.5.4"
+    "eslint-import-resolver-typescript": "^4.4.5",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.5.6",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.12.0",
+    "prettier": "^3.9.7",
+    "typescript-eslint": "^8.70.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "typescript": ">=4.8.4 <6.1.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "typescript": "^5.9.3"
   },
   "engines": {
-    "node": "^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0"
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
   },
   "bugs": {
     "url": "https://github.com/samir-roy/eslint-config/issues"
